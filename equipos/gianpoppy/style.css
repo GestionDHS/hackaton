@@ -1,0 +1,19 @@
+body{
+background-color: grey;
+}
+.titulo1{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+a{
+  text-align: center;
+}
+img{
+  width: 30%;
+float: none;
+}
+p{
+  text-align: center;
+}

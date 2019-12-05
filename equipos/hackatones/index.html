@@ -1,0 +1,66 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <title> Hackatones ambientales  </title>
+  </head>
+  <body>
+    <header>
+      <div class="nombre">
+        <h1> Consecuencias del uso del plástico </h1>
+      </div>
+<div class="centro">
+      <div class="triangulos">
+        <div class="Navegacion">
+        <ul>
+          <li class="triangle"><a href="index.html">Home</a></li>
+          <li class="triangle"><a href="agua.html">Agua</a></li>
+          <li class="triangle"><a href="tierra.html"> Tierra</a></li>
+          <li class="triangle"><a href="aire.html"> Aire</a></li>
+        </ul>
+      </div>
+      </div>
+      <div class="fotoportada">
+          <div class="w3-content w3-section" style="max-width:1000px">
+            <img class="mySlides" src="imagenes\slide1.PNG" style="width:100%">
+            <img class="mySlides" src="imagenes\slide2.PNG" style="width:100%">
+            <img class="mySlides" src="imagenes\slide3.PNG" style="width:100%">
+          </div>
+        </div>
+        </div>
+    </header>
+    <main>
+      <div class="parrafo">
+        <p> El plástico se ha convertido en el material preferido de la industria durante el último siglo, los productos derivados del petróleo, al ser tan flexibles y relativamente económicos, generaron una masiva producción que terminó por inundar de plástico el planeta.
+Estudios recientes han documentado que al menos desde la década de los 50’s, se han producido más de 9,1 billones de toneladas de plástico, lo cual está generando un problema creciente que amenaza no sólo la tierra, sino también el agua y el aire; pues de estas, al menos 7 billones ya no son utilizadas, es decir, se han convertido en basura.  </p>
+      </div>
+    </main>
+    <footer>
+      <div class="footer">
+        <ul>
+          <li class="f2"> <a href="#"> Gonzalo Poza </a> </li>
+          <li class="f3"> <a href="#"> Felicitas Browne </a> </li>
+          <li class="f4"> <a href="#"> Inés Gassiebayle </a> </li>
+        </ul>
+      </div>
+    </footer>
+    <script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+  </body>
+</html>

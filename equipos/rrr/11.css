@@ -1,0 +1,32 @@
+header{
+  background-color: black;
+  text-align: center;
+  height: 115px;
+  color: #44d93d;
+
+}
+h1{
+  font-size: 60px;
+  text-shadow: 2px 2px white;
+  margin-bottom: 0px;
+  font-family: 'Sulphur Point', sans-serif;
+}
+h2{
+  margin-top: 0px;
+  font-family: 'Sulphur Point', sans-serif; }
+  main{
+    background-color: #5de37c;
+  }
+  .reducir{
+    font-size: 25px;
+    font-family: 'Sulphur Point', sans-serif;
+margin: 15px;
+  }
+  footer{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    font-size: 20px;
+
+
+  }

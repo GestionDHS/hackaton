@@ -1,0 +1,125 @@
+
+header {
+	background: #333;
+	color: white;
+	height: 80px;
+}
+	#main-header a {
+		color: white;
+	}
+
+#logo-header {
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+
+}
+#logo-header:hover {
+		color: #0b76a6;
+	}
+
+#logo-header .site-name {
+		display: block;
+		font-weight: 700;
+		font-size: 1.2em;
+	}
+#logo-header .site-desc {
+		display: block;
+		font-weight: 300;
+		font-size: 0.8em;
+		color: #999;
+	}
+
+nav {
+	float: right;
+}
+nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+}
+
+nav ul li {
+			display: inline-block;
+			line-height: 80px;
+}
+
+nav ul li a{
+	display: block;
+	padding: 0 10px;
+	text-decoration: none;
+      }
+
+nav ul li a:hover{
+		background: #0b76a6;
+}
+  #main-content {
+	background: white;
+	width: 90%;
+	max-width: 800px;
+	margin: 20px auto;
+	box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+
+	#main-content header,
+	#main-content .content {
+		padding: 40px;
+	}
+.titulo{
+  font-family: 'Courgette', cursive;
+  font-size: 300%;
+
+}
+.imagen{
+  width: 100%;
+  	height: 650px;
+    background-attachment: fixed;
+    background-position: center;
+      background-size: cover;
+      position: relative;
+      overflow: hidden;
+      color: white;
+      text-align: center;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+.contenedor{
+  width: 90;
+  max-width:1000px;
+  margin:auto;
+	height: 600px;
+	font-family: 'Open Sans', sans-serif;
+
+  }
+	.fondo{
+		background-image: url(https://concepto.de/wp-content/uploads/2019/05/contaminacion-e1557178882566.jpg);
+		width: 100%;
+	  	height: 650px;
+	    background-attachment: fixed;
+	    background-position: center;
+	      background-size: cover;
+	      text-align: center;
+
+	}
+	.titi{
+		font-family: 'Staatliches', cursive;
+
+		position: relative;
+		top: 300px;
+		font-size: 75px;
+		width: 3005;
+		color: white;
+	}
+.aaa{
+ text-align: center;
+ font-size: 200%;
+}
+.ee{
+	text-align: center;
+	font-size: 60px;
+	font-family: 'Racing Sans One', cursive;
+
+}

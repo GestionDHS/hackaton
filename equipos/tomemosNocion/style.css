@@ -1,0 +1,76 @@
+h1{
+  background-color: blue;
+  border: black dotted;
+  height: 50px;
+  width: 5000px;
+  color: black;
+  text-align: center;
+}
+h2{
+  font-size: 20px;
+}
+body {
+  background-image: url(https://blogs.iadb.org/ideas-que-cuentan/wp-content/uploads/sites/11/2019/04/marea-del-pl%C3%A1stico-ponerle-freno.jpg);
+}
+.caja{
+  margin-top: 80px;
+  margin-left: 100px;
+  height: 300px;
+  width: 300px;
+  border: black dotted;
+  color: white;
+}
+.caja1{
+  margin-top: 80px;
+  margin-left:50px;
+  height: 300px;
+  width: 300px;
+  border: black dotted;
+  color: white;
+
+}
+.caja2{
+  margin-top: 80px;
+  margin-left: 50px;
+  height: 300px;
+  width: 300px;
+  border: black dotted;
+  color: white;
+
+}
+.caja3{
+  margin-top: 80px;
+  margin-left: 100px;
+  height: 300px;
+  width: 300px;
+  border: black dotted;
+  margin-bottom: 80px;
+  color: white;
+
+}
+.caja4{
+  margin-top: 80px;
+  margin-left: 50px;
+  height: 300px;
+  width: 300px;
+  border: black dotted;
+  color: white;
+
+}
+.caja5{
+  margin-top: 80px;
+  margin-left: 50px;
+  height: 300px;
+  width: 300px;
+  border: black dotted;
+  margin-bottom: 80px;
+  color: white;
+
+}
+p{
+text-align: center;
+background-color: blue;
+border: black dotted;
+height: 60px;
+width: 5000px;
+}

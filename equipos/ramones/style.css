@@ -1,0 +1,31 @@
+body{
+  font-family: 'Poppins', sans-serif;
+
+}
+h1{
+  font-size: 60px;
+}
+.titulo{
+  text-align: center;
+}
+.reducir, .reutilizar, .reciclar{
+}
+.chau{
+  text-align: center;
+}
+.hola{
+  font-weight: bold;
+}
+.hola:hover{
+  color: red;
+}
+header{
+  background-color: white;
+}
+footer{
+  background-color: black;
+
+}
+footer p{
+  color: white;
+}

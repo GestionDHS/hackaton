@@ -1,0 +1,23 @@
+header, main, footer{
+  overflow: hidden;
+}
+.b{
+  width: 48%;
+  background-color: #46B5D1; ;
+  height: 40px;
+  text-align: center;
+  float:left;
+  margin: 8px;
+
+}
+body{
+  background-color: #D6E5FA;
+}
+h1{
+  background-color: #46B5D1;
+
+}
+.Contaminaciones{
+width: 300px;
+
+}

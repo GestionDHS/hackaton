@@ -1,0 +1,35 @@
+
+h1{
+  font-family: 'Anton', sans-serif;
+  font-size: 40px;
+  margin-left: 615px;
+
+}
+
+h2{
+  margin-left: 150px;
+  align-items: center;
+  font-family: 'Oswald', sans-serif;
+  margin-top: 10px;
+}
+
+.fotox{
+  margin-left: 350px;
+  margin-top: 25px;
+}
+
+.linkx{
+  position: relative;
+  right: 410px;
+  bottom: 170px;
+  background-color: rgba(48, 38, 181,0.7);
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  font-size: 30px;
+}
+
+.caja{
+  position: absolute;
+
+}

@@ -1,0 +1,46 @@
+h1{
+  font-size: 70px;
+  text-align: center;
+  font-family: 'Carter One', cursive;
+}
+body{
+  background-image: url("Img1.jpg");
+  background-size: cover;
+}
+h2{
+  font-size: 50px;
+  text-align: center;
+}
+.Lista{
+  background-color: rgb(255, 255, 255, 0.4);
+}
+h3{
+  font-size: 40px;
+  text-align: center;
+}
+p{
+  font-size: 30px;
+  text align: center;
+}
+ul{
+  font-size: 30px;
+
+}
+img{
+  float: right;
+  width:36.3%;
+margin-right: 30px;
+}
+.hola{
+  float: right;
+  width: 30.5%;
+  margin-right: 30px;
+}
+.tr{
+  font-size: 30px;
+  background-color: rgb(255, 255, 255, 0.4);
+}
+.mucho{
+  width: 90%;
+  margin-right: 50px;
+}

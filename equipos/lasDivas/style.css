@@ -1,0 +1,46 @@
+body{
+  background-color: #D7CCC8;
+}
+.titulo{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 80px;
+  color: #5D4037;
+}
+.titulo1{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 60px;
+  color: #607D8B;
+}
+.menu .paginap{
+  font-family: 'Bebas Neue', cursive;
+font-size: 40px;
+color: #757575
+}
+.menu .pagina2{
+  font-family: 'Bebas Neue', cursive;
+font-size: 40px;
+color: #757575
+}
+main{
+  margin-top: 40px;
+}
+.quees{
+    font-size: 30px;
+    background-color: #607D8B;
+}
+.reducirtitulo{
+  font-size: 40px;
+}
+.reducirlista{
+  font-size: 30px;
+}
+.reducir{
+  background-color:  #607D8B;
+}
+.menu{
+  overflow: hidden;
+}
+.w3-section
+{
+  margin-top: 300px;
+}

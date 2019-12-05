@@ -1,0 +1,47 @@
+*{
+  box-sizing:border-box;
+}
+header,main,footer{
+  overflow: hidden;
+
+}
+h1{
+  text-align: center;
+  color: black;
+    background-color:turquoise ;
+    font-family: 'Merriweather', serif;s
+
+}
+.menu{
+  text-align: center;
+  color: black;
+    background-color: turquoise;
+    width: 30%;
+    height: 100px;
+
+}
+h2{
+  background-color: turquoise;
+height: 100px;
+
+color: black;
+
+}
+.medio{
+width: 100%;
+  color: black;
+  text-align: center;
+}
+.info{
+height: 100px;
+width: 100%;
+color: black;
+}
+.medio img{
+  width: 50%;
+  height: 200px;
+}
+.uno{
+  width: 50%;
+margin: auto;
+}

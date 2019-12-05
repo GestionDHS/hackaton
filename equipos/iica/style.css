@@ -1,0 +1,36 @@
+h1{
+
+  height: 50px;
+font-size: 35px
+}
+
+
+body{
+  background-color: brown;
+  color: white;
+font-family: 'Roboto Mono', monospace;
+}
+h2{
+  text-align: center;
+}
+p{
+  font-size: 15px;
+}
+.frase{
+  text-align: center;
+  font-size: 25px;
+
+}
+header{
+  background-color: black;
+}
+.final{
+  text-align: center;
+}
+.b{
+  width: 100%;
+  margin-top: 50px;
+}
+li{
+  font-size: 15px;
+}

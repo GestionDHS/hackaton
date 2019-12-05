@@ -1,0 +1,48 @@
+body {
+  background-image: url(https://media.giphy.com/media/l3fQnAa8cHBgzVQFq/giphy.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cajas1{
+  float: left;
+  width: 30%;
+  height: 500px;
+  margin-left: 40px;
+  background-color: white;
+  text-align: justify;
+  margin-top: 400px;
+}
+
+.cajas2{
+  float: left;
+  width: 30%;
+  height: 500px;
+  margin-left: 40px;
+  background-color: white;
+  text-align: justify;
+  margin-top: 400px;
+}
+
+.cajas3{
+  float: left;
+  width: 30%;
+  height: 500px;
+  margin-left: 40px;
+  background-color: white;
+  text-align: justify;
+  margin-top: 400px;
+}
+h1{
+  height: 400px;
+  color: white;
+  margin-left: 300px;
+  margin-top: 200px;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size: 220px;
+}
+.textos{
+   font-family: 'PT Sans Caption', sans-serif;
+   margin-top: 20px;
+   margin-left: 20px;
+
+}

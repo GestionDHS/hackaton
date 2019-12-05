@@ -1,0 +1,35 @@
+h1{text-align: center;font-family: sans-serif;}
+h2{text-align: center;font-family: sans-serif;}
+
+ul{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+height: 35px; background-color: lightgreen;text-align: center;
+float: left;
+width: 100%;
+
+display:flex;
+justify-content: center;
+}
+
+
+
+li{float: left; list-style:none;
+width:22.5;text-align: center;
+padding: 10px;
+box-sizing: border-box;text-decoration: none;}
+a{text-decoration: none; color: black; font-family: sans-serif; text-align: center;margin-left: 20%; }
+
+body{background-image: url(fondo.jpg);
+background-repeat: no-repeat;background-size: cover; background-attachment: fixed;}
+.imagen1{ margin-top: 5%;text-align: center;}
+.reducir{width: 30%; float: left;  height: 200px; margin-right: 3%;text-align: center; margin-top: 3%; font-size: 20px;}
+.reutilizar{width: 30%; float: left;  margin-right: 3%;text-align: center; margin-top: 3%;font-size: 20px;}
+.reciclar{width: 30%;float: right;text-align: center;margin-right: 3%; margin-top: 3%;font-size: 20px;}
+.hola{font-size: 20px;font-family: sans-serif;margin-top: 5%; text-align: center;}
+iframe{text-align: center;}
+.hola2{text-align: center;}
+footer{ margin-top: 200px; overflow: hidden;
+}
+.imagen2{margin-top: 20px;}

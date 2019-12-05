@@ -1,0 +1,42 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'PT Sans Caption', sans-serif;
+}
+
+.image {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text-information {
+  color: white;
+}
+
+.text-card-info {
+  margin-top: 3%;
+}
+
+.img1 { background-image: url("img/background1.jpg"); }
+.img2 { background-image: url("img/background2.jpg"); }
+.img3 { background-image: url("img/background3.jpg"); }
+
+.text {
+  color: white;
+  font-weight: bold;
+  font-size: 80px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+}

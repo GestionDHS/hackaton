@@ -1,0 +1,46 @@
+body{
+  background-color: #29F388;
+}
+li{
+  float: left;
+  margin-left:75px;
+  font-size: 30px;
+  list-style: none;
+}
+ul{
+  overflow: hidden;
+  text-align: center;
+}
+.links{
+  background-color: white;
+text-align: center;
+}
+
+.links:hover{
+  background-color: #22654B;
+  color: black;
+}
+
+header{
+text-align: center;
+}
+
+.lista2{
+  text-align: left;
+}
+
+h1{
+  text-align: center;
+  font-family: Monoton,cursive;
+}
+
+.asd{
+  text-align: center;
+}
+title{
+  font-family: 'Monoton', cursive;
+}
+
+p{
+  font-size: 30px;
+}

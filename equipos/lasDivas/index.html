@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width">
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="template_resources/templateStyle.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1 class="titulo">El plástico</h1>
+      <h2 class="titulo1">¿Como reducir los residuos plásticos?</h2>
+      <div class="menu">
+        <a href="index.html" class="paginap">Pagina Principal</a>
+        <a href="pagina2.html"class="pagina2">Pagina de informacion</a>
+      </div>
+    </header>
+    <div class="w3-content w3-section" style="margin-top:50px!important">
+      <img class="mySlides" src="template_resources/foto1.jpg" style="width:100%">
+      <img class="mySlides" src="template_resources/foto2.jpg" style="width:100%">
+      <img class="mySlides" src="template_resources/foto3.jpg" style="width:100%">
+          <img class="mySlides" src="template_resources/foto4.jpg" style="width:100%">
+             <img class="mySlides" src="template_resources/foto5.jpg" style="width:100%">
+    </div>
+    <script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}
+      x[myIndex-1].style.display = "block";
+      setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+    </script>
+  </body>
+</html>

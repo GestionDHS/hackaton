@@ -1,0 +1,222 @@
+*{
+  box-sizing: border-box;
+}
+header{
+  height: 670px;
+  overflow: hidden;
+}
+h1{
+  color: #6C43AB;
+  margin-left: 20px;
+  font-style: italic;
+}
+.nombre{
+  background-image: url("imagenes/ettiquete rose.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 20%;
+  height: 650px;
+  border: 5px solid #6C43AB;
+  float: left;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.triangulos{
+  height: 100px;
+  width: 120%;
+  margin-left: 10px;
+}
+.triangulos img{
+  height: 150px;
+  margin-right: 40px;
+}
+.centro{
+  float:left;
+  width: 60%;
+  text-align: center;
+}
+.pentagono{
+    height: 640px;
+    width:15%;
+    float:right;
+}
+.pentagono img{
+  height: 140px;
+}
+.triangulos img:hover{
+  background-image: url(imagenes\RING LETRA.png);
+}
+
+li{
+  list-style: none;
+}
+
+.fotoportada{
+  width: 100%;
+  margin-left: 70px;
+  margin-right: 200px;
+  margin-top: 100px;
+  margin-bottom: 120px;
+  text-align: center;
+}
+.fotoportada img{
+  width: 100%;
+  height: 435px;
+}
+ ul{
+   overflow: hidden;
+ }
+.triangle{
+  float: left;
+  list-style: none;
+  width: 15%;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+a{
+  color: #6C43AB;
+  text-decoration: none;
+}
+li:hover{
+  text-decoration: underline;
+}
+.parrafo{
+  width: 100%;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+main{
+  overflow: hidden;
+  text-align:center;
+}
+.parrafo{
+font-size: 30px;
+color: ;
+font-style: italic;
+margin-left: 40px;
+padding-right: 70px;
+margin-top: 50px;
+margin-bottom: 100px;
+}
+.aire{
+  text-align: center;
+}
+.footer{
+    text-align: center;
+    font-size: 20px;
+
+}
+footer{
+  margin-top: 50px;
+}
+.f2{
+  background-color: #AEFF96;
+  float:left;
+  margin-left: 130px;
+  padding-right: 10px;
+}
+.f3{
+  background-color: #AEFF96;
+  float:left;
+  margin-left: 160px;
+}
+.f4{
+  background-color: #AEFF96;
+  float:left;
+  margin-left: 190px;
+}
+.f5{
+  background-color: #AEFF96;
+  float:left;
+  margin-left: 220px;
+}
+
+footer{
+  background-color: #AEFF96;
+  height: 80px;
+  border: 4px #6C43AB solid;
+}
+.mediorings{
+  font-size: 25px;
+  color: #96E8FF;
+  font-style: italic;
+}
+.mediorings1{
+  font-size: 25px;
+  color: Black;
+  font-style: italic;
+}
+.mediorings1 img{
+height: 150px;
+float: left;
+}
+/* .mediorings2{
+  font-size: 25px;
+  color: #264d7e;
+  font-style: italic;
+}
+.mediorings2 img{
+width: 15%;
+float: left;
+} */
+.brasaletes{
+width: 20%;
+height: 200px;
+margin-top: 100px;
+margin-left: 70px;
+}
+.chainbracelet2{
+  width: 30%;
+}
+/* .mediorings img{
+height: 150px;
+width: 25%;
+float: left;
+} */
+.anilletes p{
+  margin-right: 50px;
+}
+.anilletes{
+width: 100%;
+border: 4px #6C43AB solid;
+height: 440px;
+margin-top: 100px;
+margin-left: 70px;
+margin-right: 5px;
+}
+* {box-sizing: border-box;}
+
+.container {
+  position: relative;
+  width: 25%;
+  max-width: 300px;
+  float:left;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}

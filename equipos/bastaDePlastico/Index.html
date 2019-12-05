@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="header">
+      <h1>El plastico en el agua</h1>
+      <h2><a href="A.html">¿Como afecta el plastico a los oceanos y su fauna?</a></h2>
+    </div>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="HXSR_101_.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="oso.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="tortuga.PNG" style="width:100%">
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+
+    <div class="Cajas">
+      <h3>Informacion general</h3>
+        <p>El plástico está más presente en nuestro día a día de lo que pensamos, no solo son las botellas o recipientes de la comida, también está en los pitillos, en los copitos para los oídos, incluso los vasos de icopor tienen una recubierta de plástico, a esto se le conoce como “plásticos camuflados”.</p>
+        <p>El plástico es hecho con polímeros de compuestos orgánicos, es un material sintético que se puede moldear fácilmente, además contiene sustancias derivadas de petroquímicos. El plástico afecta a la tierra, el agua y el aire, su largo tiempo de degradación provoca múltiples daños en los ecosistemas, aunque el reciclaje es una buena opción para disminuir la contaminación en la tierra por el plástico, la verdad es que ya no es una medida suficiente, definitivamente tanto el consumo como la producción de plástico se debe reducir.</p>
+      </div>
+
+      <footer>
+        <ul>
+            <li><a href="instagram.html">Instagram</a></li>
+            <li><a href="twitter.html">Twitter</a></li>
+            <li><a href="facebook.html">Facebook</a></li>
+        </ul>
+      </footer>
+
+    <script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+  </body>
+</html>

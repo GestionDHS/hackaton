@@ -1,0 +1,75 @@
+header{
+  background-image: url("fotoparaelheader.jpg");
+  height: 150px;
+  background-size: 100%;
+
+}
+
+header h1{
+  font-family: 'EB Garamond', serif;
+  color: white;
+  font-size: 55px;
+  margin-top: 25px;
+}
+img {
+  height: 500px;
+
+}
+
+main{
+  margin-top: 25px;
+}
+
+
+
+p{
+  font-family: 'Alatsi', sans-serif;
+  margin: 10px;
+
+}
+
+h1{
+  margin: 10px;
+}
+.Oceano {
+  height: 600px;
+  width: 23%;
+  background-color: #64b588;
+  float: left;
+}
+.Tierra{
+  height: 600px;
+  width: 23%;
+  background-color: #71bfa4;
+  float: left;
+  margin-left: 35px;
+}
+.SeresHumanos{
+  height: 600px;
+  width: 23%;
+  background-color: #35db88;
+  float: left;
+  margin-left: 35px;
+}
+.AnimalesMarinos{
+  height: 600px;
+  width: 23%;
+  background-color: #27d696;
+  float: left;
+  margin-left: 35px
+}
+
+.video{
+  float: left;
+  margin-top: 100px;
+  margin-left: 25px;
+}
+
+.info{
+  width: 50%;
+  height: 300px;
+  float: left;
+  margin-top: 25px;
+  margin-left: 50px;
+
+}

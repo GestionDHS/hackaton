@@ -1,0 +1,88 @@
+body{
+  font-family: cursive;
+  background-color: cream;
+}
+
+h1{
+  text-align: center;
+  font-size: 40px;
+}
+
+h2{
+  text-align: center;
+  font-size: 20px;
+}
+
+.menu{
+    background-color: lightgreen;
+  text-align: center;
+  height: 40px;
+
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  margin-right: 50px;
+
+
+}
+
+h3{
+  color: lightgreen;
+
+
+}
+
+.mision, .foto{
+  float: left;
+  width: 50%;
+
+}
+
+.grande{
+
+}
+
+.logo{
+  float: left;
+  width: 25%;
+  margin-left: 20px;
+}
+
+.titulo{
+  float: left;
+  width: 50%;
+}
+header{
+  overflow: hidden;
+}
+
+.mapa{
+float: left;
+margin-left: 300px;
+margin-top: 50px;
+}
+
+footer{
+
+}
+
+.footer{
+  margin-top: 20px;
+  float: left;
+width: 100%;
+text-align: center;
+  background-color: black;
+  color: white;
+}
+
+img {
+border-radius: 20px;
+margin: 10px solid lightgreen;
+width: 100%
+}
+
+.logo img{
+  width: 200px;
+}

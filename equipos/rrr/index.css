@@ -1,0 +1,57 @@
+header{
+  background-color: black;
+  text-align: center;
+  height: 115px;
+  color: #44d93d;
+
+}
+h1{
+  font-size: 60px;
+  text-shadow: 2px 2px white;
+  margin-bottom: 0px;
+  font-family: 'Sulphur Point', sans-serif;
+}
+h2{
+  margin-top: 0px;
+  font-family: 'Sulphur Point', sans-serif;
+}
+main{
+  background-color: #5de37c;
+}
+.info p{
+font-size: 25px;
+
+}
+footer{
+  background-color: black;
+  color: white;
+  padding: 30px;
+  font-size: 20px;
+  text-decoration: none;
+
+
+}
+h3{
+  font-size: 20px;
+}
+a{
+  border: none;
+  margin: 40px;
+  text-decoration:none;
+  font-size: 30px;
+  color: white;
+  background-color: black;
+  border-radius: 3px;
+  float: left;
+  padding: 15px;
+}
+body{
+  text-align: center;
+}
+.reducir{
+  text-align: center;
+  margin-left: 350px;
+}
+li{
+  list-style: none;
+}
