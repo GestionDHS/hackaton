@@ -2,7 +2,7 @@ h1{
   background-color: blue;
   border: black dotted;
   height: 50px;
-  width: 5000px;
+  width: 100%;
   color: black;
   text-align: center;
 }
@@ -72,5 +72,5 @@ text-align: center;
 background-color: blue;
 border: black dotted;
 height: 60px;
-width: 5000px;
+width: 100%;
 }
